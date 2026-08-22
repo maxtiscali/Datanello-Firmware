@@ -1,0 +1,114 @@
+=========================================
+   FILE MODIFICATO CON SMART CONFIGURATOR 
+   I testi qui sotto non riflettono le   
+   modifiche, ma i payload in fondo si!
+=========================================
+=========================================
+   FILE MODIFICATO CON SMART CONFIGURATOR 
+   I testi qui sotto non riflettono le   
+   modifiche, ma i payload in fondo si!
+=========================================
+=========================================
+   FILE MODIFICATO CON SMART CONFIGURATOR 
+   I testi qui sotto non riflettono le   
+   modifiche, ma i payload in fondo si!
+=========================================
+=========================================
+   FILE MODIFICATO CON SMART CONFIGURATOR 
+   NOTA: I testi in formato leggibile 
+   potrebbero non riflettere le modifiche.
+   L'importazione avverra' comunque con i 
+   nuovi parametri aggiornati con successo!
+=========================================
+      BACKUP CONFIGURAZIONE DATANELLO    
+=========================================
+
+SERIALE DISPOSITIVO: S/N: 2608944707
+Versione Firmware: v2.8 (Master Async)
+
+--- CONNESSIONE E SERVER ---
+APN: TM
+Server Principale: :0
+Protocollo: 0
+MQTT Client ID: datanello_1
+MQTT User: 
+MQTT Topic: 
+
+--- IMPOSTAZIONI DI SISTEMA ---
+Tempo di Campionamento (min): 1
+Intervallo Trasmissione (min): 60
+Modo Lavoro (0=Letargo, 1=Sempre On): 0
+Fuso Orario (0=UTC, 1=Locale): 0
+
+--- CANALI ANALOGICI ---
+A1 (CANALE 1 ANALOGICO): EN=0, Tipo=0, Inizio=0, Fondo=100, Offset=0.0
+A2 (CANALE 2 ANALOGICO): EN=0, Tipo=0, Inizio=0, Fondo=100, Offset=0.0
+A3 (CANALE 3 ANALOGICO): EN=0, Tipo=0, Inizio=0, Fondo=100, Offset=0.0
+A4 (CANALE 4 ANALOGICO): EN=0, Tipo=0, Inizio=0, Fondo=100, Offset=0.0
+
+--- CANALI DIGITALI ---
+D1 (INGRESSO DIGITALE 1): Modo=0, Peso=1.0, Moltiplicatore=1.0
+D2 (INGRESSO DIGITALE 2): Modo=0, Peso=1.0, Moltiplicatore=1.0
+D3 (INGRESSO DIGITALE 3): Modo=0, Peso=1.0, Moltiplicatore=1.0
+D4 (INGRESSO DIGITALE 4): Modo=0, Peso=1.0, Moltiplicatore=1.0
+D5 (INGRESSO DIGITALE 5): Modo=0, Peso=1.0, Moltiplicatore=1.0
+D6 (INGRESSO DIGITALE 6): Modo=0, Peso=1.0, Moltiplicatore=1.0
+
+--- RETE MODBUS MASTER (RS485) ---
+Baudrate: 9600, Parita: 0, Stop Bits: 1
+
+=========================================
+           DO NOT EDIT BELOW             
+=========================================
+[BACKUP_PAYLOADS]
+mod=LOG&intlog=1&md_lav=0&usa_ora_locale=0
+mod=COM&apn=WSIM&ips=industrial.api.ubidots.com&prt=443&api=BBUS-a1Fbz6XhwDvgMF5NTTugVP80edmW0c&proto=0&mcid=datanello_1&musr=&mpwd=&mtpc=&srv2_en=0&ips2=&prt2=0&api2=
+mod=TX&inttx=60
+mod=OUT&o1=1&o2=0&o3=0&o4=0&o5=0&o6=0
+mod=SERVICE&c1o=0.0700&c1g=1.0000&c2o=0.0000&c2g=1.0000&c3o=0.0000&c3g=1.0000&c4o=0.0000&c4g=1.0000&vbo=0.0&vbg=1.0
+mod=SMS&smsEn=0&n1=*&n2=*&n3=*&a1c=0&a1s=0&a1v=0.00&t1=*&a2c=0&a2s=0&a2v=0.00&t2=*&a3c=0&a3s=0&a3v=0.00&t3=*
+mod=SMART&mnf_en=0&mnf_ini=0&mnf_fin=0&mnf_int=1&adp_en=0&adp_thr=20&adp_int=3&math_en=0
+mod=MB_CFG&baud=9600&par=0&stp=1&ofs=0&tout=1000
+mod=MBS_CFG&mbs_en=0&mbs_id=1&mbs_bd=9600&mbs_pr=0&mbs_st=1
+mod=CH1&en1=1&nm1=SIMULATORE&ty1=1&in1=0&fo1=10&of1=0.0
+mod=CH2&en2=0&nm2=CANALE%202%20ANALOGICO&ty2=0&in2=0&fo2=100&of2=0.0
+mod=CH3&en3=0&nm3=CANALE%203%20ANALOGICO&ty3=0&in3=0&fo3=100&of3=0.0
+mod=CH4&en4=0&nm4=CANALE%204%20ANALOGICO&ty4=0&in4=0&fo4=100&of4=0.0
+mod=D1&md1=1&nm1=INGRESSO%20DIGITALE%201&pe1=1.0&te1=0&mt1=1.0&pd1=0&ld1=0
+mod=D2&md2=0&nm2=INGRESSO%20DIGITALE%202&pe2=1.0&te2=0&mt2=1.0&pd2=0&ld2=0
+mod=D3&md3=0&nm3=INGRESSO%20DIGITALE%203&pe3=1.0&te3=0&mt3=1.0&pd3=0&ld3=0
+mod=D4&md4=0&nm4=INGRESSO%20DIGITALE%204&pe4=1.0&te4=0&mt4=1.0&pd4=0&ld4=0
+mod=D5&md5=0&nm5=INGRESSO%20DIGITALE%205&pe5=1.0&te5=0&mt5=1.0&pd5=0&ld5=0
+mod=D6&md6=0&nm6=INGRESSO%20DIGITALE%206&pe6=1.0&te6=0&mt6=1.0&pd6=0&ld6=0
+mod=M1&e1=1&n1=temperatura&id1=1&fc1=4&rg1=0&tp1=0&ft1=0&mu1=0.1&of1=0.000
+mod=M2&e2=1&n2=umidit%C3%A0&id2=1&fc2=4&rg2=1&tp2=0&ft2=0&mu2=0.1&of2=0.000
+mod=M3&e3=1&n3=MODBUS%203&id3=2&fc3=4&rg3=1&tp3=2&ft3=0&mu3=1.000&of3=0.000
+mod=M4&e4=0&n4=MODBUS%204&id4=0&fc4=3&rg4=0&tp4=0&ft4=0&mu4=1.000&of4=0.000
+mod=M5&e5=0&n5=MODBUS%205&id5=0&fc5=3&rg5=0&tp5=0&ft5=0&mu5=1.000&of5=0.000
+mod=M6&e6=0&n6=MODBUS%206&id6=0&fc6=3&rg6=0&tp6=0&ft6=0&mu6=1.000&of6=0.000
+mod=M7&e7=0&n7=MODBUS%207&id7=0&fc7=3&rg7=0&tp7=0&ft7=0&mu7=1.000&of7=0.000
+mod=M8&e8=0&n8=MODBUS%208&id8=0&fc8=3&rg8=0&tp8=0&ft8=0&mu8=1.000&of8=0.000
+mod=M9&e9=0&n9=MODBUS%209&id9=0&fc9=3&rg9=0&tp9=0&ft9=0&mu9=1.000&of9=0.000
+mod=M10&e10=0&n10=MODBUS%2010&id10=0&fc10=3&rg10=0&tp10=0&ft10=0&mu10=1.000&of10=0.000
+mod=M11&e11=0&n11=MODBUS%2011&id11=0&fc11=3&rg11=0&tp11=0&ft11=0&mu11=1.000&of11=0.000
+mod=M12&e12=0&n12=MODBUS%2012&id12=0&fc12=3&rg12=0&tp12=0&ft12=0&mu12=1.000&of12=0.000
+mod=M13&e13=0&n13=MODBUS%2013&id13=0&fc13=3&rg13=0&tp13=0&ft13=0&mu13=1.000&of13=0.000
+mod=M14&e14=0&n14=MODBUS%2014&id14=0&fc14=3&rg14=0&tp14=0&ft14=0&mu14=1.000&of14=0.000
+mod=M15&e15=0&n15=MODBUS%2015&id15=0&fc15=3&rg15=0&tp15=0&ft15=0&mu15=1.000&of15=0.000
+mod=M16&e16=0&n16=MODBUS%2016&id16=0&fc16=3&rg16=0&tp16=0&ft16=0&mu16=1.000&of16=0.000
+mod=M17&e17=0&n17=MODBUS%2017&id17=0&fc17=3&rg17=0&tp17=0&ft17=0&mu17=1.000&of17=0.000
+mod=M18&e18=0&n18=MODBUS%2018&id18=0&fc18=3&rg18=0&tp18=0&ft18=0&mu18=1.000&of18=0.000
+mod=M19&e19=0&n19=MODBUS%2019&id19=0&fc19=3&rg19=0&tp19=0&ft19=0&mu19=1.000&of19=0.000
+mod=M20&e20=0&n20=MODBUS%2020&id20=0&fc20=3&rg20=0&tp20=0&ft20=0&mu20=1.000&of20=0.000
+mod=M21&e21=0&n21=MODBUS%2021&id21=0&fc21=3&rg21=0&tp21=0&ft21=0&mu21=1.000&of21=0.000
+mod=M22&e22=0&n22=MODBUS%2022&id22=0&fc22=3&rg22=0&tp22=0&ft22=0&mu22=1.000&of22=0.000
+mod=M23&e23=0&n23=MODBUS%2023&id23=0&fc23=3&rg23=0&tp23=0&ft23=0&mu23=1.000&of23=0.000
+mod=M24&e24=0&n24=MODBUS%2024&id24=0&fc24=3&rg24=0&tp24=0&ft24=0&mu24=1.000&of24=0.000
+mod=M25&e25=0&n25=MODBUS%2025&id25=0&fc25=3&rg25=0&tp25=0&ft25=0&mu25=1.000&of25=0.000
+mod=M26&e26=0&n26=MODBUS%2026&id26=0&fc26=3&rg26=0&tp26=0&ft26=0&mu26=1.000&of26=0.000
+mod=M27&e27=0&n27=MODBUS%2027&id27=0&fc27=3&rg27=0&tp27=0&ft27=0&mu27=1.000&of27=0.000
+mod=M28&e28=0&n28=MODBUS%2028&id28=0&fc28=3&rg28=0&tp28=0&ft28=0&mu28=1.000&of28=0.000
+mod=M29&e29=0&n29=MODBUS%2029&id29=0&fc29=3&rg29=0&tp29=0&ft29=0&mu29=1.000&of29=0.000
+mod=M30&e30=0&n30=MODBUS%2030&id30=0&fc30=3&rg30=0&tp30=0&ft30=0&mu30=1.000&of30=0.000
+mod=M31&e31=0&n31=MODBUS%2031&id31=0&fc31=3&rg31=0&tp31=0&ft31=0&mu31=1.000&of31=0.000
+mod=M32&e32=0&n32=MODBUS%2032&id32=0&fc32=3&rg32=0&tp32=0&ft32=0&mu32=1.000&of32=0.000
